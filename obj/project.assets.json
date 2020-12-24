@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\PROGRAMACION\\C#\\Practica\\ListasPredicados\\ListasPredicados.csproj",
+      "projectUniqueName": "E:\\PROGRAMACION\\C#\\Practica\\Pares-Impares-Primos\\ListasPredicados.csproj",
       "projectName": "ListasPredicados",
-      "projectPath": "E:\\PROGRAMACION\\C#\\Practica\\ListasPredicados\\ListasPredicados.csproj",
+      "projectPath": "E:\\PROGRAMACION\\C#\\Practica\\Pares-Impares-Primos\\ListasPredicados.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "E:\\PROGRAMACION\\C#\\Practica\\ListasPredicados\\obj\\",
+      "outputPath": "E:\\PROGRAMACION\\C#\\Practica\\Pares-Impares-Primos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
