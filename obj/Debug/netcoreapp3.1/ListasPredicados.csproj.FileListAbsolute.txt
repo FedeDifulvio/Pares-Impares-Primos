@@ -1,0 +1,13 @@
+E:\PROGRAMACION\C#\Practica\ListasPredicados\bin\Debug\netcoreapp3.1\ListasPredicados.exe
+E:\PROGRAMACION\C#\Practica\ListasPredicados\bin\Debug\netcoreapp3.1\ListasPredicados.deps.json
+E:\PROGRAMACION\C#\Practica\ListasPredicados\bin\Debug\netcoreapp3.1\ListasPredicados.runtimeconfig.json
+E:\PROGRAMACION\C#\Practica\ListasPredicados\bin\Debug\netcoreapp3.1\ListasPredicados.runtimeconfig.dev.json
+E:\PROGRAMACION\C#\Practica\ListasPredicados\bin\Debug\netcoreapp3.1\ListasPredicados.dll
+E:\PROGRAMACION\C#\Practica\ListasPredicados\bin\Debug\netcoreapp3.1\ListasPredicados.pdb
+E:\PROGRAMACION\C#\Practica\ListasPredicados\obj\Debug\netcoreapp3.1\ListasPredicados.csprojAssemblyReference.cache
+E:\PROGRAMACION\C#\Practica\ListasPredicados\obj\Debug\netcoreapp3.1\ListasPredicados.AssemblyInfoInputs.cache
+E:\PROGRAMACION\C#\Practica\ListasPredicados\obj\Debug\netcoreapp3.1\ListasPredicados.AssemblyInfo.cs
+E:\PROGRAMACION\C#\Practica\ListasPredicados\obj\Debug\netcoreapp3.1\ListasPredicados.csproj.CoreCompileInputs.cache
+E:\PROGRAMACION\C#\Practica\ListasPredicados\obj\Debug\netcoreapp3.1\ListasPredicados.dll
+E:\PROGRAMACION\C#\Practica\ListasPredicados\obj\Debug\netcoreapp3.1\ListasPredicados.pdb
+E:\PROGRAMACION\C#\Practica\ListasPredicados\obj\Debug\netcoreapp3.1\ListasPredicados.genruntimeconfig.cache
