@@ -73,8 +73,8 @@ namespace ListasPredicados
         {
             Predicate<int> buscador = new Predicate<int>(EsPrimo);
 
-            List<int> NumerosPrimos = numeros.FindAll(buscador);
-
+            List<int> NumerosPrimos = numeros.FindAll(buscador);      /* El predicado BUSCADOR le va a indicar a FindAll todos los primos en la lista numeros*/
+                                                                      /* Todos esos primos se almacenan en una nueva lista de primos. */
             foreach (int number in NumerosPrimos)
             {
                 Console.WriteLine(number); 
