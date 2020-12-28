@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq; 
 
 namespace ListasPredicados
 {
@@ -82,16 +83,16 @@ namespace ListasPredicados
         {
             Predicate<int> buscador = new Predicate<int>(EsPrimo);
 
-            List<int> NumerosPrimos = numeros.FindAll(buscador);      /* El predicado BUSCADOR le va a indicar a FindAll todos los primos en la lista numeros*/
-                                                                      /* Todos esos primos se almacenan en una nueva lista de primos. */
-            MostrarLista(NumerosPrimos); 
+            List<int> NumerosPrimos = numeros.FindAll(buscador).Distinct().ToList();      /* El predicado BUSCADOR le va a indicar a FindAll todos los primos en la lista numeros*/
+                                                                                          /* Todos esos primos se almacenan en una nueva lista de primos. */
+            MostrarLista(NumerosPrimos);                                                  /* Distinct().ToList() borra los repetidos */
         } 
 
         static void MostrarPares(List<int> numeros)
         {
             Predicate<int> buscador = new Predicate<int>(EsPar);
 
-            List<int> NumerosPares = numeros.FindAll(buscador);
+            List<int> NumerosPares = numeros.FindAll(buscador).Distinct().ToList();
 
             MostrarLista(NumerosPares);
 
@@ -100,18 +101,21 @@ namespace ListasPredicados
         static void MostrarImpares(List<int> numeros)
         {
             Predicate<int> buscador = new Predicate<int>(EsImpar);
-            List<int> NumerosImpares = numeros.FindAll(buscador);
+            List<int> NumerosImpares = numeros.FindAll(buscador).Distinct().ToList(); 
 
             MostrarLista(NumerosImpares); 
         } 
 
         static void MostrarLista(List<int> Lista)
         {
+            
             foreach (int number in Lista)
             {
                 Console.WriteLine(number);
             }
 
-        }
+        } 
+
+
     }
 }
