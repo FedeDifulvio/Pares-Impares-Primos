@@ -27,16 +27,25 @@ namespace ListasPredicados
                 }
                 
             }
-            ListaNumeros.Remove(0);  
+            ListaNumeros.Remove(0); 
             Console.Clear();
 
-            Console.WriteLine("LISTADO DE NÚMEROS PARES: ");
-            MostrarPares(ListaNumeros);
-            Console.WriteLine("LISTADO DE NÚMEROS IMPARES: ");
-            MostrarImpares(ListaNumeros); 
-            Console.WriteLine("LISTADO DE NÚMEROS PRIMOS: " );
-            MostrarPrimos(ListaNumeros);
            
+            Console.WriteLine("LISTADO DE NÚMEROS PARES: ");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            MostrarPares(ListaNumeros);
+            Console.ResetColor();
+
+            Console.WriteLine("LISTADO DE NÚMEROS IMPARES: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            MostrarImpares(ListaNumeros);
+            Console.ResetColor();
+
+            Console.WriteLine("LISTADO DE NÚMEROS PRIMOS: " );
+            Console.ForegroundColor = ConsoleColor.Magenta;
+            MostrarPrimos(ListaNumeros);
+            Console.ResetColor(); 
+
 
 
 
