@@ -10,6 +10,8 @@ El resultado son tres listas que clasifican los números en pares, impares y pri
 
 
 -Si el usuario ingresa dos veces el mismo número en la lista, el duplicado se extrae antes de armar los grupos de números. 
+
+
 -Se remueve el cero de la lista. 
 
 ![image](https://user-images.githubusercontent.com/71615110/106278061-cb087b80-6218-11eb-83e5-66aa972869ea.png)
